@@ -1,11 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .sec1{
     display: flex;
-}
-a{
-    text-decoration: none;
 }
 .main-head{
     width: 30%;
@@ -27,6 +25,89 @@ a{
 .link{
     padding: 10px 20px;
     color: aliceblue;
-    background-color: lightsalmon;
+    background-color: rgb(253, 84, 17);
     border-radius: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(0deg, red, orange);
+    
+}
+.sec2{
+     display: flex; 
+     background-image: url(img/7.png);
+     margin-top: 5%;
+     margin-bottom: 5%;
+}
+.sec2-about{
+   width: 50%;
+   padding-left: 20%;
+   padding-top: 5%;
+   padding-right: 5%;
+}
+.sec2-about img{
+    width: 80%;
+}
+#about-head{
+    padding-right: 8%;
+}
+#link1{
+    padding-top: 5%;
+}
+.my-recipies{
+   width: 48%;
+   text-align: center;
+   text-align: justify;
+   margin-left: 30%;
+}
+.my-recipies h2{
+    text-align: center;
+}
+.food-pic-sec{
+    display: flex;
+    margin-top: 5%;
+}
+.food-pic-div1{
+      border-radius: 10%;
+      width: 70%;
+      margin-left: 10%;
+      box-shadow: 3px 3px 5px 6px #ccc;
+}
+.food-pic-div1 img{
+     width: 95%;
+     
+}
+.food-pic{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+#food-pic-div2{
+    margin-right: 10%;
+}
+.fb-ist-ytube{
+    width: 80%;
+    border-radius: 10%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin-bottom: 5%;
+}
+.social{
+    padding-left: 15%;
+}
+.last-head{
+    text-align: center;
+    color: rgb(250, 245, 245);
+}
+.end{ 
+    padding-top: 2%;
+    padding-bottom: 2%;
+   background-color: midnightblue;
+
+   margin-left: none;
+}
+#eat{
+    color: coral;
+}
+#fresh{
+    color: rgb(59, 58, 58);
 }
